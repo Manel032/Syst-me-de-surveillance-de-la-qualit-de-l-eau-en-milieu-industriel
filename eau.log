@@ -1,0 +1,14 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877 -HEAP 16 -RA -LHF -GC -DL -O11111114 -fo8 -N"C:\micro v001\eau.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\micro v001\" "eau.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	P16F877.c
+diagnostics: 624	123	Compiled Successfully	P16F877.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	eau.c
+diagnostics: 708	123	Compiled Successfully	eau.c
+hint: 463	1164	Variable 'q' has been eliminated by optimizer	eau.c
+hint: 496	1164	Variable 'q' has been eliminated by optimizer	eau.c
+hint: 526	1164	Variable 'q' has been eliminated by optimizer	eau.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+error: 0	434	Demo Limit	Demo Limit
+error: 0	102	Finished (with errors): 14 déc. 2025, 16:25:16	eau.mcppi
